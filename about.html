@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Sasquatch Rex</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+
+<body class="bg-gradient-to-r from-gray-700 via-gray-900 to-black bg-no-repeat h-full w-full font-mono">
+    <nav class=" text-slate-300 py-4 text-[22px] flex space-x-2 justify-between items-center mr-10 md:mr-20 ">
+        <a href="/" class="hover:text-violet-800 ml-10 md:ml-24 font-bold ">Sasquatch Rex</a>
+        <div class="space-x-16 transition-all ease-in-out max-md:hidden ">
+            <a href="/about.html" class="hover:text-neutral-400 text-violet-600 font-bold">About</a>
+            
+            <a href="/contact.html" class="hover:text-neutral-400">Contact</a>
+        </div>
+        <div class="hidden max-md:block text-right mr-0 ">
+            <a class="hamburger" onclick="htmlfunc(this);">
+                <div class="space-y-2">
+                    <span class="block w-8 h-1 bg-gray-600"></span>
+                    <span class="block w-8 h-1 bg-gray-600"></span>
+                    <span class="block w-8 h-1 bg-gray-600"></span>
+                </div>
+
+            </a>
+
+        </div>
+
+    </nav>
+    <div class="hidden text-slate-300  h-full text-center space-y-0.5 align-middle  backdrop-blur-xl text-xl" id="hamm">
+        <a href="/about.html" class="hover:text-neutral-400 block px-3 mt-1 py-4  hover:bg-neutral-900 font-bold text-violet-600">About</a>
+        
+        <a href="/contact.html" class="hover:text-neutral-400 block py-4  hover:bg-neutral-900">Contact</a>
+    </div>
+    <div class="w-full h-full text-slate-400 lg:flex ">
+        <div class="lg:w-1/2 h-full mt-8 text-center ml-[5%]">
+            <img src="bg.png" alt="Sorry Photo not found" srcset="" class="w-11/12 px-1 md:h-1/6 transform transition-all hover:scale-105 ">
+        </div>
+        <div class="lg:w-2/3 mt-24 ">
+            <div class="text-4xl font-bold mt-9 px-1 xl:text-5xl text-center lg:text-start font-lato text-violet-500">
+                Faithfull counseling
+            </div>
+            <div class="text-slate-400 mt-12 px-3 xl:w-3/4 xl:px-0 xl:text-xl text-2xl ">
+                Do you have any family problems or is stressed about work? Do you think you are upset with life or done
+                with life? Do you want to break the habit? Do you think you are constantly having panick attacks? Are
+                you scaled of even trying? Maybe I can help you with the probem!
+            </div>
+            <div class="mt-5 mx-auto text-center xl:text-left">
+                <button
+                    class=" border-2 rounded-2xl border-black bg-violet-400 text-black px-3  py-1 hover:bg-violet-700 hover:text-white text-2xl animate-bounce">Contact
+                    Us</button>
+            </div>
+            <div class="mt-44 mx-2">
+                <div class="text-4xl font-bold font-lato my-10 text-violet-600">What can you expect from us?</div>
+                <div class="text-2xl">
+                    <ul class="space-y-4">
+                        <li>1. Listening to the problems you face and give advice according to it.</li>
+                        <li>2. Understand you emotional and psychological difficulties.</li>
+                        <li>3. Bring effective change and enhance your wellbeing.</li>
+                    </ul>
+                </div>
+            </div>
+            
+
+
+        </div>
+
+        <!-- <div class="text-white">
+                hello
+            </div> -->
+    </div>
+    <div class="m-10 lg:mx-40">
+        <div class="text-3xl min-[250px]:text-5xl text-center mb-10 text-violet-500 font-lato font-bold">Members</div>
+        <ul class="lg:flex lg:space-x-10 m-auto">
+            <li class="">
+                <img src="man photo.png" alt="" class="border-2 border-violet-600 rounded-3xl ">
+                <div class=" text-2xl text-violet-400 text-center">
+                    <div class="">Sasquatch Rex</div>
+                    <div class="">Founder, Faithfull counseling</div>
+                </div>
+
+            </li>
+            <li class="">
+                <img src="man photo.png" alt="" class="border-2 border-violet-600 rounded-3xl">
+                <div class=" text-2xl text-violet-400 text-center">
+                    <div class="">Greg October</div>
+                    <div class="">Motivator / Speaker</div>
+                </div>
+
+            </li>
+            <li class="">
+                <img src="man photo.png" alt="" class="border-2 border-violet-600 rounded-3xl">
+                <div class=" text-2xl text-violet-400 text-center">
+                    <div class="">Alex Rameses</div>
+                    <div class="">Life Motivator / Counsellor</div>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+
+    <footer class="bg-black text-white py-6  justify-between items-center min-[478px]:flex">
+        <div class="space-x-14 mr-24 ">
+
+            <a href="/about.html" class="hover:text-neutral-400 ml-5">About</a>
+            
+            <a href="/contact.html" class="hover:text-neutral-400">Contact</a>
+
+        </div>
+        <div class="mr-10">
+            ©Sasquatch Rex
+        </div>
+
+
+
+    </footer>
+    <script>
+        let ham = document.getElementById('hamm')
+
+
+        function htmlfunc() {
+            ham.classList.toggle('hidden')
+
+        }
+
+    </script>
+</body>
+
+
+</html>
